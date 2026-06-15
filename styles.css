@@ -1,0 +1,16 @@
+:root{--bg:#000;--accent:#0077ff;--muted:#999;--text:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:var(--text);line-height:1.5}
+.hero{height:56vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url('') center/cover no-repeat}
+.hero-inner{text-align:center;padding:2rem}
+.hero h1{font-size:2.4rem;letter-spacing:1px;margin:0}
+.tag{color:var(--muted);margin:0.6rem 0}
+.cta{display:inline-block;padding:.8rem 1.2rem;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
+.container{max-width:980px;margin:2rem auto;padding:0 1rem}
+section{margin-bottom:2rem}
+h2{color:var(--accent);margin-bottom:.6rem}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.placeholder{background:#111;border:1px solid #222;padding:2rem;text-align:center;color:var(--muted)}
+footer{padding:1rem;text-align:center;border-top:1px solid #111;color:var(--muted)}
+.whatsapp-fab{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+@media(min-width:900px){.hero{height:70vh}.hero h1{font-size:3.4rem}}
